@@ -52,3 +52,6 @@ variable "vm-post-install-script-uri" {
 variable "ssh_user" {
   default     = "root"
 }
+variable "private_key" {
+  description = "The private key contents for the SSH keypair."
+}
