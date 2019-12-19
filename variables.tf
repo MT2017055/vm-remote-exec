@@ -49,3 +49,6 @@ variable "vm-post-install-script-uri" {
   default = "https://raw.githubusercontent.com/Cloud-Schematics/vm-local-exec/master/nginx.sh"
   description = "The URI for the NGINX install script."
 }
+variable "ssh_user" {
+  default     = "root"
+}
